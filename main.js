@@ -23,7 +23,7 @@ for(let contador=0; contador <listaDeTeclas.length; contador++) {
   tecla.classList.add('ativa');
 }
   
-  tecla.onkeyup = function () {
+  tecla.onkeyup =function () {
   tecla.classList.remove('ativa');
 }
   
