@@ -20,7 +20,9 @@ for(let contador=0; contador <listaDeTeclas.length; contador++) {
 };
 
   tecla.onkeydown =function (evento) {
+  if (evento.code == 'Enter') {
   tecla.classList.add('ativa');
+  }
   console.log(evento.code);
 }
   
