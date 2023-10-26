@@ -11,7 +11,7 @@ document.querySelector(idElementoAudio).play();
 }
 
 tecla.onkeydown = function () {
-tecla.classList.add('tiva');
+tecla.classList.add('ativa');
 }
 
 const listaDeTeclas = document.querySelectorAll('.tecla');
