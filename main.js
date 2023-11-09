@@ -11,7 +11,7 @@ const elemento = document.querySelector(idElementoAudio);
 if (elemento === null) {
   alert('bala ou bala ou um curativo');
 }
-  .play();
+//  .play();
 }
 
 const listaDeTeclas = document.querySelectorAll('.tecla');
