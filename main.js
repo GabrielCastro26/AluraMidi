@@ -8,9 +8,7 @@ document.querySelector('#som_tecla_clap').play();
 
 function tocaSom(idElementoAudio){
 const elemento = document.querySelector(idElementoAudio);
-if (elemento === null) {
-  alert('bala ou bala ou um curativo');
-} if (elemento != null && elemento.localName === 'audio') {
+ if (elemento && elemento.localName === 'audio') {
        elemento.play();
  } else {
    alert('bala ou bala ou um curativo');
